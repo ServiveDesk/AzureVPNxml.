@@ -1,0 +1,54 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml"
+    i:nil="true" />
+  <clientauth>
+    <aad>
+      <audience>cf2bd5c2-d225-4009-99d2-38c020c9afd5</audience>
+      <cachesigninuser>true</cachesigninuser>
+      <issuer>https://sts.windows.net/3dfa243a-295d-489b-a645-205d5e93cfa6/</issuer>
+      <tenant>https://login.microsoftonline.com/3dfa243a-295d-489b-a645-205d5e93cfa6</tenant>
+    </aad>
+    <cert
+      i:nil="true" />
+    <type>aad</type>
+    <usernamepass
+      i:nil="true" />
+  </clientauth>
+  <clientconfig>
+    <dnsservers>
+      <DnsServerEntry>
+        <dnsserver>10.4.2.5</dnsserver>
+      </DnsServerEntry>
+      <DnsServerEntry>
+        <dnsserver>10.4.2.4</dnsserver>
+      </DnsServerEntry>
+    </dnsservers>
+    <excluderoutes
+      i:nil="true" />
+    <includeroutes
+      i:nil="true" />
+  </clientconfig>
+  <name>BTL-CORE-VNET</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname
+        i:nil="true" />
+      <fqdn>azuregateway-36970072-06c7-4986-967d-ecede1387fde-32e92cccb068.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <cert>
+      <hash>A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436</hash>
+      <issuer
+        i:nil="true" />
+    </cert>
+    <serversecret>69d1f0f778254b4d383836144f27a2420c876112b68b47a701a8250ac0036f957aa791f47de764292e9e2a9d806cfe39518a764a2302888b3d9394c3e9a1cd5e87cb2d88f493d8ea4a0a02ff2e487946509d8f9e90ca2a3f4ff9d61fbcfb207ff59f0213368b15a275fe5b988f0c21061c97728fc568e0f02251d3493328522c39ade16cfa5974f5b0877afcafc410eb6d86d1bd2625bd97801315c1f7eaeb556a5a8c77222a1f058966c3128acbfa3890f963a1464a60c25b06b2da15f3c97edc19030a7afb16ec7a224a60d243664b8d597e1a88fa0e52606da96eee89c66b4c66b1262cca477b7abdafa989e54ae22335a8b480f34bbeb1b1d781af4637c0</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
